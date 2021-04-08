@@ -21,6 +21,3 @@ target_link_libraries(test_math_2 sciplot::sciplot)
 add_library(gaussian src/gaussian.cpp)
 target_include_directories(gaussian PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-
-
-
