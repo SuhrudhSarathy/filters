@@ -21,3 +21,6 @@ target_link_libraries(test3 Eigen3::Eigen)
 add_executable(test4 test/test_kalman_one_dim.cpp src/kalman_one_dim.cpp)
 target_link_libraries(test4 sciplot::sciplot)
 
+# add_executable(test5 test/test_gaussian.cpp)
+# target_link_libraries(test5 LINK_PUBLIC gaussian)
+
