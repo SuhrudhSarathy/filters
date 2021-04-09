@@ -11,3 +11,10 @@ add_subdirectory(filter_math)
 add_subdirectory(kalman)
 add_subdirectory(gh_filter)
 
+# add_executable(test1_gauss src/test_1.cpp)
+# target_link_libraries(test1_gauss PUBLIC Gaussian)
+
+# target_include_directories(test1_gauss PUBLIC
+#                           "${PROJECT_BINARY_DIR}"
+#                           "${PROJECT_SOURCE_DIR}/Gaussian"
+#                           )
